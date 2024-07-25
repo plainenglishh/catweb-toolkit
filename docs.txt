@@ -1,0 +1,29 @@
+log   Log text to console
+wrn   Log warning text to console
+err   Throw an error
+
+del   Delay execution
+hlt   Halt execution
+end   Closes a block
+
+ifeq  If equal
+ifne  If not equal
+ifgt  If greater then
+iflt  If less than
+
+set   Set variable
+sop   Set object property
+
+add   Addition
+sub   Subtraction
+div   Division
+mul   Multiplication
+
+bra   Branch to section
+breq  Branch if equal
+brne  Branch if not equal
+brgt  Branch if greater than
+brlt  Branch if less than
+
+call  Call section, if callable
+ret   Return value from callable section

@@ -1,0 +1,206 @@
+[
+  {
+    "alias": "./site/hi.asm",
+    "class": "script",
+    "content": [
+      {
+        "actions": [
+          {
+            "id": "11",
+            "text": [
+              "",
+              {
+                "t": "string",
+                "value": "{a}"
+              },
+              "",
+              {
+                "t": "number",
+                "value": "0"
+              }
+            ]
+          },
+          {
+            "id": "11",
+            "text": [
+              "",
+              {
+                "t": "string",
+                "value": "{b}"
+              },
+              "",
+              {
+                "t": "number",
+                "value": "0"
+              }
+            ]
+          }
+        ],
+        "id": 0,
+        "text": [
+          "setup"
+        ]
+      },
+      {
+        "actions": [
+          {
+            "id": "12",
+            "text": [
+              "",
+              {
+                "t": "string",
+                "value": "{a}"
+              },
+              "",
+              {
+                "t": "number",
+                "value": "-0.1"
+              }
+            ]
+          }
+        ],
+        "id": 2,
+        "text": [
+          "character_move_up",
+          {
+            "t": "key",
+            "value": "W"
+          }
+        ]
+      },
+      {
+        "actions": [
+          {
+            "id": "23",
+            "text": [
+              ""
+            ]
+          },
+          {
+            "id": "3",
+            "text": [
+              "",
+              {
+                "t": "number",
+                "value": "0.1"
+              },
+              ""
+            ]
+          },
+          {
+            "id": "31",
+            "text": [
+              "",
+              {
+                "t": "string",
+                "value": "Position"
+              },
+              "",
+              {
+                "t": "object",
+                "value": "@"
+              },
+              "",
+              {
+                "t": "any",
+                "value": "{b}, {a}"
+              }
+            ]
+          },
+          {
+            "id": "25",
+            "text": [
+              ""
+            ]
+          }
+        ],
+        "id": 0,
+        "text": [
+          "main"
+        ]
+      },
+      {
+        "actions": [
+          {
+            "id": "12",
+            "text": [
+              "",
+              {
+                "t": "string",
+                "value": "{a}"
+              },
+              "",
+              {
+                "t": "number",
+                "value": "0.1"
+              }
+            ]
+          }
+        ],
+        "id": 2,
+        "text": [
+          "character_move_down",
+          {
+            "t": "key",
+            "value": "S"
+          }
+        ]
+      },
+      {
+        "actions": [
+          {
+            "id": "12",
+            "text": [
+              "",
+              {
+                "t": "string",
+                "value": "{b}"
+              },
+              "",
+              {
+                "t": "number",
+                "value": "0.1"
+              }
+            ]
+          }
+        ],
+        "id": 2,
+        "text": [
+          "character_move_right",
+          {
+            "t": "key",
+            "value": "D"
+          }
+        ]
+      },
+      {
+        "actions": [
+          {
+            "id": "12",
+            "text": [
+              "",
+              {
+                "t": "string",
+                "value": "{b}"
+              },
+              "",
+              {
+                "t": "number",
+                "value": "-0.1"
+              }
+            ]
+          }
+        ],
+        "id": 2,
+        "text": [
+          "character_move_left",
+          {
+            "t": "key",
+            "value": "A"
+          }
+        ]
+      }
+    ],
+    "globalid": "d"
+  }
+]

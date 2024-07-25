@@ -1,0 +1,10 @@
+description = "CLI for catweb related stuff"
+files = ["*"]
+keywords = ["CatWeb", "Compiler"]
+main = "./src/init.luau"
+name = "catweb-toolkit"
+owner = "plainenglish"
+repository = ""
+version = "0.1.0"
+
+[dependencies]
